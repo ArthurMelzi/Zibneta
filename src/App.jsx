@@ -400,7 +400,7 @@ export default function App() {
 
                 <div className="mt-6 pt-3 border-t border-slate-900/10 flex items-center justify-between text-xs font-mono">
                   <span>Mascote Monitorado: <strong>{config.mascotName}</strong></span>
-                  <span className="text-purple-600 font-bold">Iniciação Científica Infantil</span>
+                  <span className="text-purple-600 font-bold">AMOSTRA STEAM</span>
                 </div>
               </div>
 
@@ -1436,7 +1436,7 @@ export default function App() {
       {}
       <footer className="max-w-7xl mx-auto px-4 sm:px-6 mt-12 pt-6 border-t-2 border-slate-900/20 text-center font-mono text-xs opacity-75">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span>PAINEL AUXILIAR DE APRESENTAÇÃO DE INICIAÇÃO CIENTÍFICA INFANTIL</span>
+          <span>PAINEL AUXILIAR DE APRESENTAÇÃO DE AMOSTRA STEAM</span>
           <span>PLANETA {config.planetName.toUpperCase()} • CIENTISTAS: {config.scientists.toUpperCase()}</span>
         </div>
       </footer>
