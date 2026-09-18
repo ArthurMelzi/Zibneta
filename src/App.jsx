@@ -37,9 +37,9 @@ import {
 const DEFAULT_CONFIG = {
   planetName: "Zubineta",
   mascotName: "Zibinômetro",
-  scientists: "Sofia, Lucas e Gabriel",
-  schoolYear: "Iniciação Científica Infantil",
-  institution: "Feira de Ciências Interplanetária"
+  scientists: "AlTERAR PARA OS NOMES,
+  schoolYear: "escola SESI SENAI",
+  institution: "Escola SESI SENAI"
 };
 
 const INITIAL_PROBLEMS = [
