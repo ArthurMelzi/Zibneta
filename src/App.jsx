@@ -37,7 +37,7 @@ import {
 const DEFAULT_CONFIG = {
   planetName: "Zubineta",
   mascotName: "Zibinômetro",
-  scientists: "AlTERAR PARA OS NOMES,
+  scientists: "AlTERAR PARA OS NOMES",
   schoolYear: "escola SESI SENAI",
   institution: "Escola SESI SENAI"
 };
