@@ -35,8 +35,8 @@ import {
 } from 'lucide-react';
 
 const DEFAULT_CONFIG = {
-  planetName: "Zubineta",
-  mascotName: "Zibinômetro",
+  planetName: "Zibneta",
+  mascotName: "Zibnômetro",
   scientists: "AlTERAR PARA OS NOMES",
   schoolYear: "escola SESI SENAI",
   institution: "Escola SESI SENAI"
@@ -363,7 +363,7 @@ export default function App() {
                   <Radio className={`w-8 h-8 ${isAlive ? 'text-purple-600 animate-pulse' : 'text-red-500'}`} />
                   <span className="font-mono text-xs font-bold mt-2">STATUS DA CONEXÃO</span>
                   <span className={`text-sm font-black font-mono mt-1 ${isAlive ? 'text-emerald-600' : 'text-red-500'}`}>
-                    {isAlive ? 'ESTÁVEL (ZUBINETA ↔ TERRA)' : 'CRÍTICA / RUÍDO ALTO'}
+                    {isAlive ? 'ESTÁVEL (Zibneta ↔ TERRA)' : 'CRÍTICA / RUÍDO ALTO'}
                   </span>
                   <div className="w-full bg-slate-200 h-2 mt-3 rounded-none overflow-hidden border border-slate-900">
                     <div className={`h-full ${isAlive ? 'bg-emerald-500 w-full' : 'bg-red-600 w-1/4 animate-ping'}`}></div>
@@ -467,7 +467,7 @@ export default function App() {
               </div>
             </div>
 
-            {/* SIMULATOR: ZIBINÔMETRO OCTOPUS */}
+            {/* SIMULATOR: Zibnômetro OCTOPUS */}
             <div className={`${cardBorder} p-6 ${mascotData.bgColor} transition-all`}>
               <div className="flex flex-col lg:flex-row gap-8 items-center">
                 
@@ -565,7 +565,7 @@ export default function App() {
                   {/* Mascot Name Badge */}
                   <div className="mt-3 text-center">
                     <h3 className="text-xl font-black uppercase font-mono">{config.mascotName}</h3>
-                    <p className="text-xs font-mono opacity-80">Termômetro Biológico de Zubineta</p>
+                    <p className="text-xs font-mono opacity-80">Termômetro Biológico de Zibneta</p>
                   </div>
                 </div>
 
@@ -900,7 +900,7 @@ export default function App() {
             <div className="space-y-4">
               <h3 className="text-lg font-black font-mono uppercase flex items-center gap-2">
                 <Activity className="w-5 h-5 text-purple-600" />
-                REGISTRO DA LINHA DO TEMPO DOS CIENTISTAS DE ZUBINETA
+                REGISTRO DA LINHA DO TEMPO DOS CIENTISTAS DE Zibneta
               </h3>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -908,7 +908,7 @@ export default function App() {
                   {
                     step: "01",
                     title: "FASE NORMAL",
-                    desc: "Mudanças de cor do Zibinômetro pareciam apenas uma característica curiosa de camuflagem.",
+                    desc: "Mudanças de cor do Zibnômetro pareciam apenas uma característica curiosa de camuflagem.",
                     tag: "EQUILÍBRIO",
                     bg: "bg-emerald-100"
                   },
@@ -1025,7 +1025,7 @@ export default function App() {
               </div>
             </div>
 
-            {/* VISÃO DO TELESCÓPIO INTERTEMPORAL (ZUBINETA ↔ TERRA) */}
+            {/* VISÃO DO TELESCÓPIO INTERTEMPORAL (Zibneta ↔ TERRA) */}
             <div className={`${cardBorder} p-6 ${isAlive ? 'bg-blue-900 text-white' : 'bg-zinc-950 text-red-200'}`}>
               <div className="flex items-center justify-between border-b-2 border-white/20 pb-3 mb-4">
                 <div className="flex items-center gap-2 font-mono font-bold text-xs">
@@ -1107,7 +1107,7 @@ export default function App() {
                 <div>
                   <span className={badgeClass}>ATIVIDADE INTERATIVA COM VISITANTES</span>
                   <h3 className="text-xl font-black font-mono uppercase mt-1">MURAL DE SOLUÇÕES PARA OS DOIS PLANETAS</h3>
-                  <p className="text-xs font-sans opacity-80">Escolha um problema e digite a sua sugestão para ajudar os cientistas de Zubineta e da Terra!</p>
+                  <p className="text-xs font-sans opacity-80">Escolha um problema e digite a sua sugestão para ajudar os cientistas de Zibneta e da Terra!</p>
                 </div>
 
                 <div className="flex items-center gap-2 font-mono text-xs bg-white p-2 border-2 border-slate-900">
@@ -1236,7 +1236,7 @@ export default function App() {
                 </div>
 
                 <div className="pt-4 border-t border-white/20 text-xs font-mono opacity-75">
-                  Saudações dos cientistas de Zubineta e do mascote <strong>{config.mascotName}</strong>!
+                  Saudações dos cientistas de Zibneta e do mascote <strong>{config.mascotName}</strong>!
                 </div>
               </div>
 
