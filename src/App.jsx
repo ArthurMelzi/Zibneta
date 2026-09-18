@@ -85,7 +85,7 @@ export default function App() {
   const [newSolutionText, setNewSolutionText] = useState('');
   const [selectedProblemId, setSelectedProblemId] = useState(1);
   const [authorName, setAuthorName] = useState('');
-  const [pledgeCount, setPledgeCount] = useState(148);
+  const [pledgeCount, setPledgeCount] = useState(0);
   const [hasPledged, setHasPledged] = useState(false);
   const [showCertificate, setShowCertificate] = useState(false);
   const [showThermometerBookmark, setShowThermometerBookmark] = useState(false);
