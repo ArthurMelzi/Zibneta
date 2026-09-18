@@ -232,7 +232,7 @@ export default function App() {
                 </div>
                 <div>
                   <div className="flex items-center gap-2">
-                    <span className={badgeClass}>INICIAÇÃO CIENTÍFICA INFANTIL</span>
+                    <span className={badgeClass}>AMOSTRA STEAM</span>
                     <span className="font-mono text-xs opacity-75">{config.institution}</span>
                   </div>
                   <h1 className="text-xl sm:text-2xl font-black uppercase tracking-tight font-mono">
